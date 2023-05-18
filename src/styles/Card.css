@@ -1,0 +1,36 @@
+
+.ContainerCard .Card .ImageCard img{
+    width: 300px;
+    height: 300px;
+}
+
+.ContainerCard{
+   display: grid;
+   margin-bottom: 30px;
+}
+
+.ContainerCard .Card{
+    place-self: center;
+    border: 1px solid #504747;
+    padding: 5px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+.ContainerCard .Card .DescriptionCard .NameAlbum{
+    overflow-wrap: break-word;
+}
+
+.ContainerCard .Card .DescriptionCard{
+    text-align: center;
+    width: 300px;
+    height: 150px;
+}
+
+.ContainerCard .Card .DescriptionCard .NameAlbum, .BandAlbum, .YearAlbum, .SongsAlbum{
+    margin: 15px 0 15px 0;
+    color: #E5F9DB;
+}
+
+.infoAlbumLink{
+    text-decoration: none;
+}

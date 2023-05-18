@@ -1,0 +1,43 @@
+.ContainerInfo{
+    margin: 30px;
+    display: grid;
+    grid-row: auto;
+    grid-row-gap: 50px;
+
+}
+
+.ContainerInfo .InfoAlbum{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 300px;
+    margin: 50px;
+}
+
+.ContainerInfo .InfoAlbum .Cover{
+    height: 300px;
+    width: 300px;
+}
+
+.ContainerInfo .InfoAlbum .imgCover{
+    width: 300px;
+    height: 300px;
+}
+
+.ContainerInfo .InfoAlbum .Info{
+    margin: 30px;
+    color: #E5F9DB;
+}
+
+.ContainerInfo .InfoAlbum .Info h1,h2,h4{
+    margin-bottom: 40px;
+}
+
+.ContainerInfo .ListSong{
+    display: grid;
+    margin-left: 50px;
+    color: #E5F9DB;
+}
+
+.ContainerInfo .ListSong .TitleListSong{
+    margin-bottom: 20px;
+}
