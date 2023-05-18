@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Error404 from '../pages/Error404'
 import Home from '../pages/Home'
-import InfoSong from '../pages/InfoSong'
+import InfoSong from '../pages/InfoAlbum'
 import About from '../pages/About'
 const IndexRouter = () => {
   return (

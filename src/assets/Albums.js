@@ -1,11 +1,11 @@
-const Songs = [
+const Albums = [
         {
             "id":1,
             "urlCover":"https://i.scdn.co/image/ab67616d0000b2735a6182a76ba2e4d04d9cf93f",
             "Name":"Daltonico",
             "Band":"Enjambre",
             "Year":"2010",
-            "numberSongs":"13",
+            "numberSongs":"12",
             "songs":[
                 {numTrack:"1", name:"Cobarde",length:"4:18"},
                 {numTrack:"2", name:"Visita",length:"3.44"},
@@ -53,7 +53,16 @@ const Songs = [
             "Year":"1976",
             "numberSongs":"10",
             "songs":[
-                {numTrack:"1",name:"That's Me",length:"3:15"}
+                {numTrack:"1",name:"Money, Money, Money",length:"3:07"},
+                {numTrack:"2",name:"Knowing Me Knowing You",length:"4:03"},
+                {numTrack:"3",name:"DUm Dum Diddle",length:"2:55"},
+                {numTrack:"4",name:"When I Kissed The Teacher",length:"3:03"},
+                {numTrack:"5",name:"My Love My Life",length:"3:53"},
+                {numTrack:"6",name:"That's Me",length:"3:15"},
+                {numTrack:"7",name:"Dancing Queen",length:"3:51"},
+                {numTrack:"8",name:"Arrival",length:"3:02"},
+                {numTrack:"9",name:"Tiger",length:"2:56"},
+                {numTrack:"10",name:"Why Did It Have To Be Me",length:"3:22"}
             ]
         },
         {
@@ -62,10 +71,20 @@ const Songs = [
             "Name":"Jóvenes Ilustres",
             "Band":"Comisario Pantera",
             "Year":"2011",
-            "numberSongs":"14",
+            "numberSongs":"12",
             "songs":[
-                {numTrack:"1",name:"Cada Vez Que Mientes",length:"2:24"},
-                {numTrack:"2",name:"Perfume De Mujer",length:"2:51"}
+                {numTrack:"1",name:"No Me Digas Más",length:"2:45"},
+                {numTrack:"2",name:"Noches De Luna",length:"2:40"},
+                {numTrack:"3",name:"En Automático",length:"2:26"},
+                {numTrack:"4",name:"Glamoroso Rock",length:"2:34"},
+                {numTrack:"5",name:"Sigue Rocanroleando",length:"3:01"},
+                {numTrack:"6",name:"Timbuktu",length:"2:32"},
+                {numTrack:"7",name:"Paranoia",length:"3:30"},
+                {numTrack:"8",name:"Murasaki",length:"3:31"},
+                {numTrack:"9",name:"Cada Vez Que Mientes",length:"2:24"},
+                {numTrack:"10",name:"Perfume De Mujer",length:"2:51"},
+                {numTrack:"11",name:"Volverás",length:"3:22"},
+                {numTrack:"12",name:"Por ti",length:"3:32"}
             ]
         },
         {
@@ -76,6 +95,7 @@ const Songs = [
             "Year":"2021",
             "numberSongs":"13",
             "songs":[
+                {numTrack:"",name:"",length:""},
                 {numTrack:"1",name:"Anomalie Bleue",length:"3:52"},
                 {numTrack:"2",name:"Fou",length:"5:10"},
                 {numTrack:"3",name:"Hématome",length:"3:39"},
@@ -130,4 +150,4 @@ const Songs = [
 ]
 
 
-export default Songs;
+export default Albums;
